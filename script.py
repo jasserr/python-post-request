@@ -6,7 +6,7 @@ import requests, hashlib
 
 from bs4 import BeautifulSoup 
 
-url="http://167.99.85.197:30144/"
+url="URL" #URL to send request to
 
 s = requests.session() #Creating a session
 response= s.get(url) #getting a response from our webpage  
